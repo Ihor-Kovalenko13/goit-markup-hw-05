@@ -695,7 +695,7 @@ body {
 .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -772,10 +772,10 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
   color: #8e8f99;
   margin-top: 16px;
+  margin-right: 8px;
 }
 
 /* .checkbox-input {
@@ -783,9 +783,7 @@ body {
   opacity: 0;
   pointer-events: none;
 } */
-.custom-checkbox {
-  display: inline-flex;
-}
+
 .custom-checkbox {
   width: 16px;
   height: 16px;
@@ -798,8 +796,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  /* margin-right: 8px;
-  flex-shrink: 0; */
+  /* margin-right: 8px; */
 }
 
 .checkbox-icon {
