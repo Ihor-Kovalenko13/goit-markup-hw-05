@@ -575,7 +575,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   padding: 8px 24px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -686,11 +685,11 @@ body {
   color: #2e2f42;
 }
 
-.modal-form {
+/* .modal-form {
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
+} */
 
 .form-group {
   display: flex;
@@ -778,8 +777,6 @@ body {
   letter-spacing: 0.04em;
   align-items: center;
   color: #8e8f99;
-  margin-top: 16px;
-  margin-right: 8px;
 }
 
 /* .checkbox-input {
@@ -800,7 +797,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  /* margin-right: 8px; */
+  margin-right: 8px;
 }
 
 .checkbox-icon {
@@ -831,7 +828,7 @@ body {
   background: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  margin: 24px auto 0;
+  margin: 0 auto 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
